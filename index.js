@@ -9,10 +9,6 @@ import express from 'express';
 import { v4 } from 'uuid';  
 import cors from 'cors';
 
-// const express = require('express');
-// const uuid = require('uuid');
-// const cors = require('cors');
-
 
 const port = 3001;
 const app = express();
@@ -53,9 +49,9 @@ app.post('/users', (request, response) => {
 
     const user = { id: v4(), name, age }
 
-    users.push(user)
+    users.push(users)
 
-    return response.status(201).json(users)
+    return response.status(201).json(user)
 
 })
 
@@ -87,9 +83,6 @@ app.delete('/users/:id', checkUserId, (request, response) => {
     return response.status(204).json()
 
 })
-
-
-
 
 
 
