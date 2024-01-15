@@ -49,7 +49,7 @@ app.post('/users', (request, response) => {
 
     const user = { id: v4(), name, age }
 
-    users.push(users)
+    users.push(user)
 
     return response.status(201).json(user)
 
