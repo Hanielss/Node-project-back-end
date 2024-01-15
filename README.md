@@ -1,6 +1,7 @@
 <h1>Projeto Back-end</h1>
 
-<p>Neste projeto, trabalhei rotas do tipo GET, POST, PUT e DELETE, para cadastro de usuários</p>
+<p>Neste projeto, trabalhei rotas do tipo GET, POST, PUT e DELETE, para cadastro, atualização e exclusão de usuários</p>
+<p>Utilizando as bibliotecas Express e ID v4, também utilizamos o CORS para conseguir garantir a interação com o Front-end</p>
 
 <h2>Tecnologias</h2>
 
